@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <!-- <meta http-equiv="x-ua-compatible" content="ie=edge" /> -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rudieri Machado - Front-End Developer</title>
+    <meta name="description"
+        content="Olá, me chamo Rudieri Machado e sou Desenvolvedor FrontEnd e estudante de programação" />
+    <!-- <meta name="copyright" content="Rudieri Machado 2022" /> -->
+    <meta property="og:title" content="Portfólio | Rudieri Machado - Front-End Developer" />
+    <meta property="og:description"
+        content="Olá, me chamo Rudieri Machado e sou Desenvolvedor FrontEnd e estudante de programação" />
+
+    <script src="https://kit.fontawesome.com/b47724bbe9.js" crossorigin="anonymous"></script>
+
+    <!-- Styles Css -->
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
+    <link rel="icon" href="./assets/img/favIcon.png" />
+
+    <!-- Glide.js -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css" />
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css" />
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+    <!-- Biblioteca Animação Seções -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script >
+</head>
+
+<body>
+    <header id="navbar">
+        <div class="wrapper" >
+            <a href="#main" id="logo">Portfólio</a>
+
+            <nav id="navbar-list">
+                <button class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </button>
+
+                <ul id="menu">
+                    <li><a href="#about-section" class="nav__link animation-um">Quem sou eu</a></li>
+                    <li><a href="#jobs-section" class="nav__link animation-dois">Projetos</a></li>
+                    <li><a href="#skills-section" class="nav__link animation-tres">Conhecimentos</a></li>
+                    <li><a href="#contact-section" class="nav__link animation-quatro">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Fim do navbar-->
+
+    <main id="main">
+        <section id="home-section">
+            <div class="wrapper">
+                <div class="information">
+                    <header>
+                        <div class="typewriter">
+                            <h1 id="text">Olá, me chamo Rudieri Machado.</h1>
+                        </div>
+                        <span>Front-end Developer</span>
+                        <a href="https://drive.google.com/file/d/153zRhFqxEvaEjOSOWasqA7WPGS1IRIo_/view?usp=sharing"
+                            rel="noopener" download="Currículo - Rudieri Machado" class="download"><i
+                                class="fa-solid fa-download"></i>
+                            <p>Download CV</p>
+                        </a>
+                    </header>
+                </div>
+
+                <div class="social-media">
+                    <a href="https://www.instagram.com/rudieri.machado/" class="animation-one"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rudieri-machado-99860b17a/" class="animation-tho"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/rudierimachado/" class="animation-tree"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--Fim da home section-->
+
+        <section id="about-section">
+            <div class="wrapper">
+                <header>
+                    <h2 data-aos="fade-down-right" data-aos-duration="1000">Quem sou eu</h2>
+                </header>
+
+                <div class="about-content">
+                    <div class="about-img" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="./assets/img/img.jpg" alt="Imagem do desenvolvedor" title="Imagem do desenvolvedor" />
+                    </div>
+
+                    <div class="about-texts">
+                        <div class="about-p" data-aos="fade-right" data-aos-duration="1000">
+                            <p>Sou Rudieri Machado, tenho 29 anos e moro em Taió-SC.</p>
+                            <p>Trabalho com suporte e desenvolvido de sistemas e servidores, e sou fascinado por
+                                tecnologia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim da about section-->
+
+        <!-- Inicio do portfolio-->
+        <section id="jobs-section">
+            <div class="wrapper">
+                <header>
+                    <h2 data-aos="fade-up-right" data-aos-duration="1000">Projetos</h2>
+                </header>
+
+                <div class="jobs-content-slides">
+                    <div class="glide" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide">
+                                    
+
+                                    <h3>API de CEP com Javascript puro</h3>
+                                    <img src="./assets/img/images-projects/cep_api.png"
+                                        alt="Imagem do projeto - API de CEP" title="API de CEP" />
+                                    <span class="description">Consumindo API de CEP com Javascript.</span>
+                                    <div class="container-tecnologies">
+                                        <span>Tecnologias:</span>
+                                        <span><i class="fa-brands fa-html5"></i></span>
+                                        <span><i class="fa-brands fa-css3-alt"></i></span>
+                                        <span><i class="fa-brands fa-bootstrap"></i></span>
+                                        <span><i class="fa-brands fa-js"></i></span>
+                                    </div>
+                                    <a href="https://rudierimachado.github.io/API_Autocomplete/" target="_blank"><i
+                                            class="fas fa-link"></i>Visite o site</a>
+                                </li>
+                                
+
+              
+            </div>
+        </section>
+        <!-- Fim do Portfolio -->
+
+        <section id="skills-section">
+            <div class="wrapper">
+                <header>
+                    <h2 data-aos="fade-up" data-aos-duration="1000">Conhecimentos</h2>
+                </header>
+
+                <div class="skills-content" data-aos="fade-down-right" data-aos-duration="1000">
+                    <span class="information-one" data-aos="fade-up" data-aos-duration="1000">*Clique sobre o card para
+                        ler*</span>
+                    <div class="card">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="back">
+                                <span class="span2">HTML é uma linguagem de marcação utilizada na construção de páginas
+                                    na Web.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS</span>
+                            </div>
+                            <div class="back">
+                                <span class="span2">CSS é uma linguagem de folha de estilo composta por camadas, criado
+                                    com o propósito de estilizar as páginas HTML.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fab fa-js-square"></i>
+                                <span>Javascript</span>
+                            </div>
+                            <div class="back">
+                                <span class="span2">JavaScript é uma linguagem de programação interpretada estruturada,
+                                    de script em alto nível com tipagem dinâmica fraca.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fa-brands fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="back">
+                                <span class="span2">Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte..></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="back">
+                                <span class="span2">Git é um sistema de controle de versões distribuído, usado
+                                    principalmente no desenvolvimento de software.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fa-brands fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="back">
+                                <span class="span2">Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para
+                                     entregar software em pacotes chamados contêineres. .</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="flipper">
+                            <div class="front">
+                                <i class="fa-brands fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="back">
+                                <span class="span2">O React é uma biblioteca front-end JavaScript de código aberto com foco em criar 
+                                    interfaces de usuário em páginas web</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="information" data-aos="fade-up" data-aos-duration="1000">*Passe o cursor do mouse sobre o
+                    card para ler*</span>
+            </div>
+        </section>
+        <!--Fim da skills section -->
+
+        <section id="contact-section">
+            <div class="wrapper">
+                <header>
+                    <h2 data-aos="fade-up" data-aos-duration="1000">Contato</h2>
+                </header>
+
+                <div class="form-content" data-aos="fade-down" data-aos-duration="1000">
+                    <ul class="form-content-info">
+                        <li class="form-content-info-2" data-aos="fade-right" data-aos-duration="1000">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>rudirimachado@gmail.com</span>
+                        </li>
+                        <li class="form-content-info-2" data-aos="fade-right" data-aos-duration="1000">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Taio , Santa Catarina</span>
+                        </li>
+                    </ul>
+
+                    <form method="POST" action="https://formsubmit.co/luizeduardorodrigues807@gmail.com">
+                        <div class="grid1 input">
+                            <label for="nome">Seu nome</label>
+                            <input type="text" name="name" id="nome" placeholder="Insira o seu nome completo"
+                                required />
+                        </div>
+                        <div class="grid2 input">
+                            <label for="email">Seu Email</label>
+                            <input type="email" name="email" title="Formato: xxxxxx@gmail.com" id="email"
+                                placeholder="Insira o seu email" required />
+                        </div>
+                        <div class="grid3 input input-assunto">
+                            <label for="assunto">Seu assunto</label>
+                            <input type="text" name="assunto" id="assunto" placeholder="Descreva o assunto" required />
+                        </div>
+                        <div class="grid4 input">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea name="textarea" id="mensagem" placeholder="Escreva a sua mensagem"
+                                required></textarea>
+                        </div>
+                        <input class="btn-enviar" type="submit" name="btn-cadastrar" value="Enviar" />
+                        <input type="hidden" name="_autoresponse"
+                            value="Obrigado por entrar em contato! Responderei o mais rápido possível :)" />
+                        <input type="hidden" name="_template" value="table" />
+                        <input type="hidden" name="_subject" value="Email do meu Portfólio" />
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--Fim da contact section -->
+    </main>
+
+    <footer id="footer-section">
+        <p>Feito com &hearts; por <a href="https://www.instagram.com/luizz_edduardoo_/" target="_blank">Rudieri
+                Machado</a><br> &copy; 2022 All rights reserved</p>
+    </footer>
+    <!--Fim da footer section -->
+
+    <script src="./assets/js/scrollSuave.js"></script>
+    <script src="./assets/js/carouselGlide.js"></script>
+    <script src="./assets/js/typeWriter.js"></script>
+    <script src="./assets/js/menuMobile.js"></script>
+    <script src="./assets/js/effectNavbar.js"></script>
+
+    <!-- Biblioteca AOS -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
